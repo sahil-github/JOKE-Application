@@ -1,22 +1,36 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    min-height: 110vh;
-    background-color:orchid;
-    margin-bottom :8px;
-margin-left: 8px;
-margin-right: 8px;
-margin-top :8px;
+    background-color:rgb(31, 15, 30);
+   
 }
 .container{
    
-    background-color: beige;
-
+    background-color: rgb(229, 198, 202);
+    border-radius:20%;
+    padding: 70px;
+    margin: 12%;
+    margin-right: 30%;
+    margin-left: 30%;
 }
+
+.container h1{
+    color: brown;
+    font-size: large;
+    text-align: start;
+   
+}
+.joke{
+    text-align: center;
+    font-size: medium;
+}
+
+.getJoke{
+     padding: 12px;
+    font-size: medium;
+    cursor: pointer;
+}
+
 button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   text-align: center;
+   color:darkblue;
 }
