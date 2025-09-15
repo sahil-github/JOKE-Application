@@ -1,36 +1,40 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(31, 15, 30);
+    background: black;
    
 }
 .container{
    
-    background-color: rgb(229, 198, 202);
-    border-radius:20%;
-    padding: 70px;
-    margin: 12%;
-    margin-right: 30%;
-    margin-left: 30%;
+    background-color: rgb(224, 212, 214);
+    border-radius :40px;
+    width: 60vh;
+    position: absolute;
+    top: 30%;
+    left:35%;
+    order: 1px solid;
+   padding: 20px;
+   box-shadow: 5px 10px;
+   display: flex;
+   flex-wrap: wrap;
 }
 
-.container h1{
-    color: brown;
-    font-size: large;
-    text-align: start;
-   
+h1 {
+ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .joke{
-    text-align: center;
     font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .getJoke{
-     padding: 12px;
-    font-size: medium;
+  
     cursor: pointer;
 }
 
 button{
+   
    text-align: center;
-   color:darkblue;
+   color:rgb(209, 53, 30);
+   border-radius: 40px;
+   
 }
